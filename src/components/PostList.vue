@@ -13,6 +13,7 @@
                         <span>分享</span>
                         <span>问答</span>
                         <span>招聘</span>
+                        <span>客户端测试</span>
                     </div>
                 </li>
                 <li v-for="post in posts">
@@ -130,7 +131,6 @@
 
     li:not(:first-child):hover {
         background: #f5f5f5;
-        ;
     }
 
     li:last-child:hover {

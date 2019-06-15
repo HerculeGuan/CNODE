@@ -132,7 +132,7 @@
 
     .replySec {
         border-bottom: 1px solid #e5e5e5;
-        padding: 0 10px;
+        padding: 10px;
     }
 
     .loading {
@@ -174,5 +174,10 @@
 
     .markdown-text img {
         width: 92% !important;
+    }
+    .markdown-text p {
+        font-size: 15px;
+    line-height: 1.7em;
+    overflow: auto;
     }
 </style>
